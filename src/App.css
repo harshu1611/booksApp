@@ -36,3 +36,127 @@
     transform: rotate(360deg);
   }
 }
+
+.frontPage{
+  background-image: url('../public/bg1.jpg');
+  display: flex;
+  flex-direction: column;
+  height: 130vh;
+  background-size: cover;
+  
+}
+
+#heading1{
+  margin-top: 10vh;
+align-self: center;
+  font-weight: bold;
+  font-size: 8vh;
+}
+.para1{
+  margin-top: 5vh;
+  background-color: white;
+  border-color: transparent;
+  border-radius: 15px;
+  opacity: .85;
+  align-self: center;
+  color:black;
+  height: auto;
+  width: 80vw;
+}
+.para1 p{
+  color: black;
+  font-family:'Comic Sans MS' ;
+  font-size: large
+
+}
+.buttons{
+  width: 100%;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+#view{
+  background-color: rgb(192, 95, 5);
+  margin-left: 30vw;
+  border-color: rgb(192, 95, 5);
+  font-weight: bold;
+ 
+}
+#create{
+  background-color: rgb(192, 95, 5);
+  margin-left: 20vw;
+  border-color: rgb(192, 95, 5);
+  font-weight: bold;
+ 
+}
+.createPage{
+  background-image: url('../public/bg2.jpg');
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-size: cover;
+}
+#heading2{
+  color: white;
+  margin-top: 10vh;
+align-self: center;
+  font-weight: bold;
+  font-size: 8vh;
+}
+
+.form-create{
+  align-self: center;
+  width: 40vw;
+  display: flex;
+  height: auto;
+  background-color: black;
+  align-items: center;
+  opacity: 0.85;
+}
+.animate__animated.animate__slideInDown {
+  
+  --animate-duration: 3s;
+}
+.form-control{
+  margin-top: 4vh;
+  margin-left: 5vw;
+  align-self: center;
+  width: 30vw;
+}
+.btn-outline-warning{
+  margin-bottom: 3vh;
+  margin-left: 5vw;
+}
+.btn-warning{
+  margin-top: 4vh;
+  margin-left: .5vw;
+  width: auto;
+  font-weight: bold;
+}
+.showBooks{
+  background-image: url('../public/bg3.jpg');
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-size: cover;
+  
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 1fr;
+  margin-left: 2vw;
+  padding-left: 2px;
+}
+.animate__animated.animate__slideInLeft{
+  animation-duration: 2s;
+}
+.buttons{
+  justify-content: center;
+
+  display: flex;
+  flex-direction: row;
+}
